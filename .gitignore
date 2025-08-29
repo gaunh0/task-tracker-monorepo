@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.cache
+.project
+.settings/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# Vercel & Render (nếu có)
+.vercel
+.render
+
+# Coverage
+coverage/
+*.lcov
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# Browser extensions
+*.crx
+*.xpi
+
+# Misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Icon?
+Thumbs.db

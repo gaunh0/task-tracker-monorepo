@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+backend:
+build: ./apps/backend
+environment:
+- DATABASE_URL=file:./dev.db
+- PORT=4000
+ports:
+- "4000:4000"
+
+
+frontend:
+build: ./apps/frontend
+environment:
+- VITE_API_BASE=/api
+ports:
+- "5173:80"
+depends_on:
+- backend
