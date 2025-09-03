@@ -3,11 +3,10 @@ services:
 backend:
 build: ./apps/backend
 environment:
-- DATABASE_URL=file:./dev.db
+- DATABASE_URL=postgresql://postgres:anhiuem12300A!@db.dsrkqekrskigmhyoqxle.supabase.co:5432/postgres
 - PORT=4000
 ports:
 - "4000:4000"
-
 
 frontend:
 build: ./apps/frontend
